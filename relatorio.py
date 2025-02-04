@@ -57,7 +57,7 @@ def gerar_relatorio():
         
         jangada_automotive = p.locateCenterOnScreen(r'C:\Users\vinicius.ribeiro\Pictures\PrintsDesafio\print_jangada_automotive.png', confidence = 0.70)  
 
-        if jangada_automotive is not None:
+        if '' is not None:
             p.sleep(1)
             p.click(jangada_automotive)
             p.sleep(1)
